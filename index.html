@@ -7,12 +7,15 @@
   <link href="styles/styles.css" type="text/css" rel="stylesheet">
   <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
   
-  <!-- jQuery -->
+<!-- jQuery -->
+<!--Part: 1-->
   <script src="js/jquery-3.1.0.min.js"></script>
-  
+<!--Part: 2-->
   <script>
-            $(function(){
+            $("document").ready(function(){
+                
                 $("h2")
+/*The Headings: Part: 3,4,5,6,7*/
 				.css("border", "solid 1px black")
 				.css("color", "#CC1C0D")
 				.css("padding", "3px 0 3px 20px")
@@ -20,21 +23,22 @@
 				.css("background-color", "#DFE3E6");
                 
                 $("nav ul li a")
+/*The Navigation Menu: Part: 8,9,10,11,12*/
 				.addClass("navigation")
 				.css("border", "solid 1px #929CA4")
 				.css("color", "#CC1C0D")
 				.css("padding", "3px 0 3px 20px")
 				.css("background-color", "#DFE3E6");
-                    
+/*Main Content: Part: 13*/    
                 $("section p:not(:first)")
 			 	.removeClass();
-                    
+/*Part: 14*/    
                 $("aside p:last")
 			 	.append("<br>Chevy Dealers Association");
-                    
+/*Part: 15,16*/    
                 $("aside p:first")
 			 	.wrapInner("<q><i></i></q>");
-                    
+/*Part: 17 */   
                 $("section p:first b")
 			 	.replaceWith("<a href='http://www.vectacorp.com'>Vecta Corp.</a>");
 
