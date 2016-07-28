@@ -8,19 +8,19 @@
   <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
   
 <!-- jQuery -->
-<!--Part: 1-->
+<!--Practice with jQuery Selectors and Commands-->
   <script src="js/jquery-3.1.0.min.js"></script>
-<!--Part: 2-->
+<!--General-->
   <script>
             $("document").ready(function(){
                 
                 $("h2")
 /*The Headings: Part: 3,4,5,6,7*/
-				.css("border", "solid 1px black")
+				.css("border", "solid 1px #404040")
 				.css("color", "#CC1C0D")
 				.css("padding", "3px 0 3px 20px")
 				.css("border-radius", "0 5px 0 5px")
-				.css("background-color", "#DFE3E6");
+				.css("background-color", "#F7F7F7");
                 
                 $("nav ul li a")
 /*The Navigation Menu: Part: 8,9,10,11,12*/
@@ -28,8 +28,9 @@
 				.css("border", "solid 1px #929CA4")
 				.css("color", "#CC1C0D")
 				.css("padding", "3px 0 3px 20px")
-				.css("background-color", "#DFE3E6");
-/*Main Content: Part: 13*/    
+				.css("background-color", "#F7F7F7");
+/*Main Content:*/
+/*Part: 13*/    
                 $("section p:not(:first)")
 			 	.removeClass();
 /*Part: 14*/    
